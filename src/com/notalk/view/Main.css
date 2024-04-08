@@ -1,0 +1,429 @@
+#loginAnchor{
+    -fx-background-image: url("../../../resources/images/Themes/ColdNight/bg.png");
+    /*-fx-fill: url("./../../../../resources/images/Themes/ColdNight/bg.png");*/
+    -fx-background-size: cover ;
+    /*-fx-background-color: red;*/
+}
+
+#loginButton{
+    /*-fx-background-color: red;*/
+    /*-fx-fill: url("../../../../resources/images/Themes/ColdNight/bg.png");*/
+    /*-fx-fill:red;*/
+    /*-fx-fill-image: url("../../../../resources/images/head/AppDefault.png");*/
+}
+
+#loginheadImg{
+    /*-fx-fill: red;*/
+    /*-fx-fill: image("../../../../resources/images/head/1.png");*/
+    -fx-highlight-fill: white;
+}
+
+#RootLayoutLeft{
+    -fx-background-color: #12B7F5;
+}
+#RootLayoutLeftHead{
+    -fx-background-image: url("../../../resources/images/Menu/tempHead.png");
+    -fx-background-size: cover;
+}
+#RootLayoutLeftButtonMsg{
+    -fx-background-image: url("../../../resources/images/Menu/messageSelected.png");
+    -fx-background-size: cover;
+}
+
+#RootLayoutLeftButtonPeople{
+    -fx-background-image: url("../../../resources/images/Menu/people.png");
+    -fx-background-size: cover;
+}
+#RootLayoutLeftButtonFunction{
+    -fx-background-image: url("../../../resources/images/Menu/function.png");
+    -fx-background-size: cover;
+}
+#RootLayoutLeftButtonSetting{
+    -fx-background-image: url("../../../resources/images/Menu/setting.png");
+    -fx-background-size: cover;
+}
+#TalkSearchPane{
+    -fx-background-color: #F8F9FA;
+}
+#talkSearch{
+    /*-fx-background-color: red;*/
+    -fx-background-image: url("../../../resources/images/Talk/search.png");
+    -fx-background-size: cover;
+}
+
+.talk-sysMsg{
+    -fx-background-image: url("../../../resources/images/Talk/systemMsg.png");
+    -fx-background-size: cover;
+}
+
+.talk-left-head-img{
+    -fx-image: url("../../../resources/images/Menu/tempHead.png");
+}
+
+/*------------------------------------Login Interface-------------------------------------*/
+/*Default Avatar*/
+.login-head-pane{
+    -fx-background-image: url("../../../resources/images/Head/logo.png");
+    -fx-background-size: cover;
+}
+/*Cover pane*/
+.cover-pane{
+    -fx-background-color: rgba(50,50,50,0.8);
+}
+/*Cover content*/
+.cover-content{
+    -fx-background-color: white;
+}
+/*button*/
+#login-msg-btn{
+    -fx-background-color: #18B4ED;
+}
+
+.login-msg-text{
+    -fx-font-size: 17px;
+}
+
+
+/*------------------------------------login Interface-------------------------------------*/
+/*------------------------------------Chat Interface-------------------------------------*/
+
+.talk-left-pane{
+    -fx-background-color: #F8F9FA;
+}
+
+.talk-right-pane{
+    -fx-background-color: #E9EEF4;
+}
+
+.talk-content{
+    -fx-background-color: white;
+}
+.talk-tools{
+    -fx-border-width: 1 0 0 0;
+    -fx-border-color: #D1D6DB;
+}
+#talkSend{
+    -fx-background-color: #18B4ED;
+}
+#face-tools{
+    -fx-background-image: url("../../../resources/images/Talktools/face.png");
+    -fx-background-size: cover;
+}
+#pic-tools{
+    -fx-background-image: url("../../../resources/images/Talktools/pic.png");
+    -fx-background-size: cover;
+}
+#record-tools{
+    -fx-background-image: url("../../../resources/images/Talktools/record.png");
+    -fx-background-size: cover;
+}
+#voice-tools{
+    -fx-background-image: url("../../../resources/images/Talktools/voice.png");
+    -fx-background-size: cover;
+}
+#file-tools{
+    -fx-background-image: url("../../../resources/images/Talktools/file.png");
+    -fx-background-size: cover;
+}
+#talk-content-text-area{
+    -fx-border-width: 2 2 2 2;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-font-size: 16px;
+}
+.label-talk-view {
+    -fx-font-size: 13pt;
+    -fx-opacity:0.9;
+}
+.talk-people-BorderPane{
+    -fx-background-color: #F8F9FA;
+    -fx-min-height: 80;
+    -fx-pref-height: 80;
+    -fx-max-height: 80;
+    /*-fx-background-color: green*/
+}
+.talk-people-BorderPane :hover{
+    -fx-background-color: #F1F5FA;
+}
+.talk-people-BorderPane-Right {
+    -fx-min-height: 80;
+    -fx-pref-height: 80;
+    -fx-max-height: 80;
+    -fx-pref-width: 250;
+    -fx-padding: 18 0 20 0;
+    /*-fx-background-color: red;*/
+}
+.label-talk-view-time {
+    -fx-font-size: 12pt;
+    -fx-opacity:0.5;
+}
+.label-talk-view-content {
+    -fx-font-size: 11pt;
+    -fx-opacity:0.5;
+}
+
+
+.label-talk-back{
+    -fx-font-size: 40pt;
+}
+.label-talk-right-name{
+    -fx-font-size: 14pt;
+    -fx-opacity:0.9;
+}
+.talk-pane{
+    -fx-border-width: 0.05 0 0.05 0;
+    -fx-border-color: gray;
+}
+
+.talk-content-right-pane{
+    /*-fx-background-color: red;*/
+    -fx-background-image: url("../../../resources/images/Operate/info.png");
+    -fx-background-size: cover;
+}
+
+
+.talk-sendmsg-label{
+    -fx-arc-height: 5px;
+    -fx-arc-width: 5px;
+    -fx-padding: 10 8 10 8;
+    -fx-background-color: #12B7F5;
+    -fx-fill: white;
+}
+.talk-recmsg-label{
+    -fx-arc-height: 5px;
+    -fx-arc-width: 5px;
+    -fx-padding: 10 8 10 8;
+    -fx-background-color: white;
+    -fx-fill: black;
+}
+/*------------------------------------chat Interface-------------------------------------*/
+
+
+/*------------------------------------Contact Interface-------------------------------------*/
+
+
+#contacts-right-main{
+    -fx-background-image: url("../../../resources/images/Others/msg.png");
+    -fx-background-size: cover;
+}
+.contacts-list{
+    -fx-background-color:#F8F9FA;
+}
+.contacts-scroll-pane{
+    -fx-background-color:#F8F9FA;
+}
+
+.contacts-main{
+    /*-fx-border-width: 5px;*/
+    -fx-background-color:yellow;
+    -fx-border-color:red;
+    -fx-progress-color: green;
+    /*-fx-color-label-visible: false;*/
+    -fx-background-color: blue;
+}
+#contacts-head{
+    -fx-image: url("../../../resources/images/Menu/tempHead.png");
+}
+.contacts-list-border{
+    -fx-border-width: 0.2 0 0.2 0;
+    -fx-border-color: #D1D6DB;
+}
+.people-BorderPane{
+    -fx-min-height: 60;
+    -fx-pref-height: 60;
+    -fx-max-height: 60;
+    /*-fx-background-color: green*/
+}
+.people-headPane{
+    -fx-pref-height: 60;
+    -fx-min-height:60;
+    -fx-pref-width: 60;
+    /*-fx-background-color: blue;*/
+}
+.people-headPane-talk{
+    -fx-pref-height: 40;
+    -fx-min-height:40;
+    -fx-pref-width: 40;
+    /*-fx-background-color: blue;*/
+}
+
+.people-BorderPane-Right {
+    -fx-min-height: 60;
+    -fx-pref-height: 60;
+    -fx-max-height: 60;
+    -fx-pref-width: 250;
+    -fx-padding: 8 0 8 0;
+    /*-fx-background-color: red;*/
+}
+
+#contacts-add-img{
+    -fx-background-image: url("../../../resources/images/Contacts/add.png");
+    -fx-background-size: cover;
+}
+
+.contacts-add-label{
+    -fx-font-size: 18px;
+}
+
+.contacts-search-res{
+    -fx-background-image: url("../../../resources/images/Themes/ColdNight/bg.png");
+    -fx-background-size: cover;
+}
+/*------------------------------------Contact Interface-------------------------------------*/
+
+/*------------------------------------Fucntion Interface-------------------------------------*/
+.function-list-pane{
+    /*-fx-background-color: red;*/
+    /*-fx-border-radius: 70px;*/
+    /*-fx-border-color: red;*/
+}
+#functionMsg{
+    -fx-background-image: url("../../../resources/images/Function/msg.png");
+    -fx-background-size: cover;
+}
+#functionCourse{
+    /*-fx-background-image: url("../../../resources/images/Function/course.png");*/
+    -fx-background-size: cover;
+}
+#functionScore{
+    /*-fx-background-image: url("../../../resources/images/Function/score.png");*/
+    -fx-background-size: cover;
+}
+#functionArrange{
+    /*-fx-background-image: url("../../../resources/images/Function/arrange.png");*/
+    -fx-background-size: cover;
+}
+#functionPayHistory{
+    /*-fx-background-image: url("../../../resources/images/Function/payhistory.png");*/
+    -fx-background-size: cover;
+}
+#functionRadio{
+    /*-fx-background-image: url("../../../resources/images/Function/radio.png");*/
+    -fx-background-size: cover;
+}
+#functionDoc{
+    /*-fx-background-image: url("../../../resources/images/Function/doc.png");*/
+    -fx-background-size: cover;
+}
+#functionShop{
+    /*-fx-background-image: url("../../../resources/images/Function/shop.png");*/
+    -fx-background-size: cover;
+}
+
+/*-----------------------------------Function Interface-------------------------------------*/
+
+/*------------------------------------Setting Interface-------------------------------------*/
+#SetAccount{
+    -fx-background-image: url("../../../resources/images/Setting/ColdNight/key.png");
+    -fx-background-size: cover;
+}
+#SetInfo{
+    -fx-background-image: url("../../../resources/images/Setting/ColdNight/man.png");
+    -fx-background-size: cover;
+}
+#SetMsg{
+    -fx-background-image: url("../../../resources/images/Setting/ColdNight/msg.png");
+    -fx-background-size: cover;
+}
+#SetTheme{
+    -fx-background-image: url("../../../resources/images/Setting/ColdNight/theme.png");
+    -fx-background-size: cover;
+}
+#SetPrivacy{
+    -fx-background-image: url("../../../resources/images/Setting/ColdNight/privacy.png");
+    -fx-background-size: cover;
+}
+#SetAssist{
+    -fx-background-image: url("../../../resources/images/Setting/ColdNight/set.png");
+    -fx-background-size: cover;
+}
+#SetAbout{
+    -fx-background-image: url("../../../resources/images/Setting/ColdNight/about.png");
+    -fx-background-size: cover;
+}
+
+.set-list-name{
+    -fx-font-size: 20px;
+    -fx-font-weight: lighter;
+}
+
+.set-option{
+    -fx-background-color: #F8F9FA;
+}
+.set-option:hover{
+    -fx-background-color: #F1F5FA;
+}
+
+/*------------------------------------Setting Interface-------------------------------------*/
+
+/*------------------------------------Setting Subinterface-----------------------------------*/
+.set-label-name{
+    -fx-font-size:16px;
+    -fx-text-fill:black;
+}
+.set-label-detail{
+    -fx-font-size:14px;
+    -fx-text-fill: gray;
+}
+.set-option-label-border{
+    -fx-border-width:0.05 0 0.05 0;
+    -fx-border-color:gray;
+}
+
+#SetInfoPane{
+    -fx-background-image: url("../../../resources/images/Themes/ColdNight/bg.png");
+    -fx-background-size: cover;
+}
+#SetInfoPaneHead{
+    -fx-background-image: url("../../../resources/images/Menu/tempHead.png");
+    -fx-background-size: cover;
+}
+#EditinfoBtn{
+    /*-fx-background-color: #5FC7F2;*/
+    -fx-border-width: 19;
+    -fx-border-radius: 20px;
+    -fx-border-color: #5FC7F2;
+}
+.set-info-name-signature-label{
+    -fx-font-size: 20px;
+}
+.set-info-name-sid-label{
+    -fx-font-size: 15px;
+    -fx-opacity: 0.7;
+}
+
+#about-logo{
+    -fx-background-image: url("../../../resources/images/About/logo.png");
+    -fx-background-size: cover;
+}
+#about-name{
+    -fx-font-size: 30px;
+}
+#about-version{
+    -fx-font-size: 15px;
+    -fx-text-fill: gray;
+    -fx-opacity: 0.7;
+}
+#about-feedback{
+    -fx-opacity: 0.8;
+}
+#about-miss-you{
+    -fx-font-weight: bold;
+    -fx-font-size: 22px;
+    -fx-text-fill: gray;
+    -fx-opacity: 0.2;
+}
+#about-declare{
+    -fx-font-size: 15px;
+    -fx-text-fill: gray;
+    -fx-opacity: 0.7;
+}
+
+
+/*------------------------------------Setting Subinterface-------------------------------------*/
+
+.label{
+    -fx-font-family: "Microsoft YaHei UI";
+}
+
+
